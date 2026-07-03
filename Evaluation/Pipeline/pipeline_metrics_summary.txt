@@ -1,0 +1,30 @@
+=============================================
+YOLO + VGG16 PIPELINE EVALUATION
+=============================================
+Total images     : 9938
+Evaluated        : 8858
+Skipped (no det) : 1080
+
+Accuracy         : 0.9440
+Balanced Accuracy: 0.9379
+Precision        : 0.9439
+Recall           : 0.9440
+F1 Score         : 0.9439
+Specificity      : 0.9608
+Sensitivity      : 0.9149
+MCC              : 0.8790
+Cohen Kappa      : 0.8789
+ROC AUC          : 0.9739
+PR AUC           : 0.9688
+
+TP=2967  TN=5395  FP=220  FN=276
+=============================================
+
+              precision    recall  f1-score   support
+
+       Fresh     0.9513    0.9608    0.9561      5615
+      Rotten     0.9310    0.9149    0.9229      3243
+
+    accuracy                         0.9440      8858
+   macro avg     0.9412    0.9379    0.9395      8858
+weighted avg     0.9439    0.9440    0.9439      8858
