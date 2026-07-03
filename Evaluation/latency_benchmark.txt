@@ -1,0 +1,27 @@
+=============================================
+LATENCY BENCHMARK SUMMARY
+=============================================
+Device          : CPU
+Warmup runs     : 10
+Measure runs    : 100
+
+--- Single Image ---
+Mean latency    : 229.7495 ms
+Median latency  : 229.0185 ms
+Std deviation   : 6.3101 ms
+Min latency     : 215.9322 ms
+Max latency     : 251.6702 ms
+95th percentile : 240.6908 ms
+99th percentile : 246.5020 ms
+Throughput      : 4.35 FPS
+
+--- Batch Latency ---
+Batch    Total (ms)      Per Image (ms)     FPS       
+---------------------------------------------------
+1        229.4316        229.4316           4.36      
+2        202.9080        101.4540           9.86      
+4        300.5281        75.1320            13.31     
+8        508.7872        63.5984            15.72     
+16       955.7199        59.7325            16.74     
+32       1825.1253       57.0352            17.53     
+=============================================
